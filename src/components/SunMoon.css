@@ -1,0 +1,19 @@
+.theme__toggler{
+    background-color: var(--first-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-white);
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 50px;
+    
+}
+
+.theme__toggler:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+}
